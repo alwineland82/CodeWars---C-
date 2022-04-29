@@ -14,7 +14,7 @@
         }
         int index = d.IndexOf(Convert.ToString(max));
         if(index >= 0)
-        d = d.Remove(index, Convert.ToString(max).Length);
+        d = d.Remove(index, 1);
         res += max;
     }
     num = Convert.ToInt32(res);
