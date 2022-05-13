@@ -1,4 +1,6 @@
-﻿int Number(List<int[]> PeopleListInOut)
+﻿using System;
+
+int Number(List<int[]> PeopleListInOut)
 {
     int inBus = 0;
     int outBus = 0;
